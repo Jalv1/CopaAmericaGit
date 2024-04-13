@@ -12,12 +12,35 @@ header{
     align-items: center;
 }
 
+table {
+ width: 100%;
+ border-collapse: collapse;
+ }
 
+th, td {
+  padding: 8px;
+   text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+ background-color: #c57e7e;
+}
+
+ 
 .logo {
     order: -1;
 }
 
+
 .logo img{
-    width: 200px;
+    width: 300px;
     height: auto;
+}
+
+.bandera img {
+    max-width: 70px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
